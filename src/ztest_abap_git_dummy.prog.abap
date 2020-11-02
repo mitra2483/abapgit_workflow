@@ -5,7 +5,7 @@
 *&---------------------------------------------------------------------*
 REPORT ztest_abap_git_dummy.
 TABLES: mara.
-SELECT-OPTIONS: s_matnr FOR mara-matnr.
+SELECT-OPTIONS: s_matnr FOR mara-matnr OBLIGATORY.
 
 START-OF-SELECTION.
 
